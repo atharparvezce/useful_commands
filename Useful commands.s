@@ -141,6 +141,31 @@ code --uninstall-extension <extension-id>
 # 7. Show VS Code version
 code --version
 
+# Unix Commands
+
+# 1. List all the installed apps in your device 
+ideviceinstaller -l
+e.g. sa.drahim.app
+
+# 2. List Real Device
+idevice_id -l
+e.g. 00008030-000979903CF3802
+
+# 3. List Simulators and Real Device
+  xcrun xctrace list devices
+  
+# 4. List all runing processes
+lsof -i
+
+# 5. List runing process with specific PID
+lsof -i :4723
+
+# 6. Kill the running process
+
+kill -9 <PID>
+
+
+
 
 
 
