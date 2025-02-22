@@ -1,5 +1,6 @@
 # Git Commands
 
+
 # 1. Initialize a new Git repository
 git init
 
@@ -76,6 +77,7 @@ git show origin
 
 
 # Conda Commands
+
 
 # 1. Create a new environment
 conda create --name <env-name> <package-names>
