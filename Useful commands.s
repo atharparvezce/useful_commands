@@ -118,6 +118,44 @@ conda env export > environment.yml
 
 
 
+# Pipenv commands 
+
+
+# 1. Install Pipenv
+pip install --user pipenv
+
+
+# 2. Add Pipenv to PATH (if needed)
+export PATH="$HOME/.local/bin:$PATH"
+
+
+# 3. Check if Pipenv is installed
+pipenv --version
+
+
+# 4. Create a new project folder
+mkdir my_project
+cd my_project
+
+
+# 5. Initialize a virtual environment
+pipenv install
+
+
+# 6. Install a package
+pipenv install requests
+
+
+# 7. Activate the virtual environment
+pipenv shell
+
+
+# 8. Deactivate the virtual environment
+exit
+
+
+
+
 
 # VS Code Commands
 
