@@ -53,24 +53,27 @@ git remote -v
 # 12. Add a remote repository
 git remote add origin <repository-url>
 
+# 13. To change the url of an existing remote repository
+it remote set-url "origin" <repository-url>
 
-# 13. Rename a branch
+
+# 14. Rename a branch
 git branch -m <new-branch-name>
 
 
-# 14. List branches
+# 15. List branches
 git branch
 
 
-# 15. Switch to a different branch
+# 16. Switch to a different branch
 git checkout <branch-name>
 
 
-# 16. Delete a branch
+# 17. Delete a branch
 git branch -d <branch-name>
 
 
-# 17. Show remote information
+# 18. Show remote information
 git show origin
 
 
