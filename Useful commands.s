@@ -76,6 +76,17 @@ git branch -d <branch-name>
 # 18. Show remote information
 git show origin
 
+# 19.a. Remove the .env file from all commits
+bfg --delete-files .env
+
+# 19.b. Repack and clean up
+git reflog expire --expire=now --all
+git gc --prune=now --aggressive
+
+# 20.c. Force push the cleaned history
+git push origin main --force
+
+
 
 
 
