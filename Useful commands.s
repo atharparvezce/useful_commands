@@ -231,6 +231,11 @@ lsof -i :4723
 kill -9 <PID>
 
 
+# MAC Commands
+
+# 1. Force Quit or Force Quit Application Windows
+   option + command + esc
+
 
 
 
