@@ -200,7 +200,7 @@ code --version
 
 
 
-# Unix Commands
+# Unix Commands    
 
 
 # 1. List all the installed apps in your device 
