@@ -132,7 +132,7 @@ conda env export > environment.yml
 
 
 
-# Pipenv commands 
+# Pipenv commands -
 
 
 # 1. Install Pipenv
