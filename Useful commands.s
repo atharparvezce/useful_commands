@@ -236,7 +236,7 @@ kill -9 <PID>
 # 1. Force Quit or Force Quit Application Windows
    option + command + esc
 
-#
+#######
 
 
 
