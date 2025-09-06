@@ -87,6 +87,11 @@ git gc --prune=now --aggressive
 git push origin main --force
 
 
+# 21. Delete Directory from the Github but keep it in the local
+
+git rm -r --cached Diretory_Name
+git commit -m "Remove Diretory_Name directory from GitHub"
+git push origin main
 
 
 
