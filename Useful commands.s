@@ -228,7 +228,7 @@ lsof -i
 
 # 5. List runing process with specific PID
 lsof -i :4723
-
+lsof -ti :8080
 
 # 6. Kill the running process
 
